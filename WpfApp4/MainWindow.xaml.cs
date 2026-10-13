@@ -4,11 +4,9 @@ using System;
 using ManApp.Models;
 namespace WpfApp4
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        //О
         private Man _man = new Man();
         public MainWindow()
         {

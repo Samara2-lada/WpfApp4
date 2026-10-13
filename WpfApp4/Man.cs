@@ -1,12 +1,15 @@
 ﻿using System;
 namespace ManApp.Models
 {
+    //Класс описывающий человека
     public class Man
     {
+        //П
         private string _name;
         private int _age;
         private string _gender;
         private double _weight;
+        //С
         public string Name
         {
             get => _name;
@@ -49,6 +52,7 @@ namespace ManApp.Models
                 _weight = value;
             }
         }
+        //Пустой человек (К)
         public Man()
         {
             _name = "Неизвестно";
