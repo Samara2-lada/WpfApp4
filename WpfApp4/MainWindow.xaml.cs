@@ -6,7 +6,7 @@ namespace WpfApp4
 {
     public partial class MainWindow : Window
     {
-        //Об
+        //О
         private Man _man = new Man();
         public MainWindow()
         {
