@@ -42,7 +42,7 @@ namespace WpfApp4
             Man m = ReadFromForm();
             if (m == null) return;
             _man.SetParams(m.Name, m.Age, m.Gender, m.Weight);
-            lblResult.Text = "SetParams(имя, возраст, пол, вес):\n" + _man;
+            lblResult.Text = "(имя, возраст, пол, вес):\n" + _man;
         }
         /// <summary>
         /// Демонстрация перегрузки SetParams(string, int).
@@ -52,7 +52,7 @@ namespace WpfApp4
             Man m = ReadFromForm();
             if (m == null) return;
             _man.SetParams(m.Name, m.Age);
-            lblResult.Text = "SetParams(имя, возраст):\n" + _man;
+            lblResult.Text = "(имя, возраст):\n" + _man;
         }
         /// <summary>
         /// Демонстрация перегрузки SetParams(int, double).
@@ -63,7 +63,7 @@ namespace WpfApp4
             if (m == null) return;
 
             _man.SetParams(m.Age, m.Weight);
-            lblResult.Text = "SetParams(возраст, вес):\n" + _man;
+            lblResult.Text = "(возраст, вес):\n" + _man;
         }
         /// <summary>
         /// Кнопка "О программе".
